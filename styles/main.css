@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: rebeccapurple;
+  --background-color: aliceblue;
+  --border-color: rebeccapurple;
+}
+html {
+  background-color: var(--background-color);
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  width: 90%;
+  margin: 0 auto;
+  border: double 4px var(--border-color);
+}
+img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+p {
+  margin: 10px 0;
+}
+main {
+  padding: 20px;
+}
+footer {
+  border-top: 4px solid var(--border-color);
+}
+h1 {
+  font-size: 150%;
+  color: var(--primary-color);
+  margin: 20px 0;
+}
+h2 {
+  clear: left;
+  font-size: 125%;
+  margin: 15px 0;
+}
+h3 {
+  font-size: 115%;
+  margin: 10px 0;
+}
+footer p {
+  margin: 10px 0;
+  font-size: 90%;
+  font-weight: bold;
+  text-align: center;
+}
+blockquote {
+  margin: 10px 0;
+}
+ul {
+  margin: 10px 0;
+}
+li {
+  margin: 10px 0;
+}
+cite {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-style: normal;
+}
